@@ -3,7 +3,7 @@
     <fullName>pharos__Sent_To_Splunk__c</fullName>
     <deprecated>false</deprecated>
     <externalId>false</externalId>
-    <label>Sent To Splunk</label>
+    <label>Sent To Splunk (Deprecated)</label>
     <required>false</required>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>

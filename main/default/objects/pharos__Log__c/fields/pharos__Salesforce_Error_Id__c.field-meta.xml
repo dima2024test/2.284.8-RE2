@@ -2,6 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>pharos__Salesforce_Error_Id__c</fullName>
     <deprecated>false</deprecated>
+    <description>Salesforce internal error Id (such as a gack Id) parsed from the error content when the log is captured. Useful when opening a case with Salesforce support.</description>
     <externalId>false</externalId>
     <label>Salesforce Error Id</label>
     <length>255</length>

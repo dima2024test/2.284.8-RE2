@@ -2,6 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>pharos__Organization_Name__c</fullName>
     <deprecated>false</deprecated>
+    <description>Name of the Salesforce org in which the logged event occurred. Distinguishes logs when Pharos collects them from multiple connected orgs.</description>
     <externalId>false</externalId>
     <label>Organization Name</label>
     <length>255</length>

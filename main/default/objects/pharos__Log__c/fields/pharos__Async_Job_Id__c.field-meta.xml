@@ -2,6 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>pharos__Async_Job_Id__c</fullName>
     <deprecated>false</deprecated>
+    <description>Id of the asynchronous job (batch, queueable, future, or scheduled) in which the problem occurred, extracted when the log is captured. Also used by Pharos to relate and de-duplicate errors raised by the same job.</description>
     <externalId>false</externalId>
     <label>Async Job Id</label>
     <length>255</length>

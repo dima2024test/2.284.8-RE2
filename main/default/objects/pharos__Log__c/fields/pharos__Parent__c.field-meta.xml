@@ -3,6 +3,7 @@
     <fullName>pharos__Parent__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
+    <description>Lookup to the parent Log of the same transaction. During capture, Pharos links logs that share a transaction Id, flow interview GUID, or request Id under a single parent log; the reference is cleared if the parent is deleted.</description>
     <externalId>false</externalId>
     <label>Parent</label>
     <referenceTo>pharos__Log__c</referenceTo>
