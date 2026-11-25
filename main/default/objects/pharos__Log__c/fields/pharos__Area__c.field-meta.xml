@@ -2,6 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>pharos__Area__c</fullName>
     <deprecated>false</deprecated>
+    <description>Functional area of the org the log belongs to. Set at capture (e.g. Apex, Workflow, Flow, Process Builder, Pharos) and refined by asynchronous post-processing, which can replace the default with the related object&apos;s type when one is identified from the log content.</description>
     <externalId>false</externalId>
     <label>Functional Area</label>
     <required>false</required>

@@ -2,6 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>pharos__Visualforce_Page__c</fullName>
     <deprecated>false</deprecated>
+    <description>Name of the Visualforce page in which the problem occurred, when provided by the capture source. Populated only for errors originating from Visualforce.</description>
     <externalId>false</externalId>
     <label>Visualforce Page</label>
     <length>255</length>

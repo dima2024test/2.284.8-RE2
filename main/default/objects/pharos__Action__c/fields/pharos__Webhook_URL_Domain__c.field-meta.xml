@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>pharos__Webhook_URL_Domain__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Domain extracted from Webhook URL for determining unique active actions</description>
+    <externalId>false</externalId>
+    <label>Webhook URL Domain</label>
+    <length>255</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

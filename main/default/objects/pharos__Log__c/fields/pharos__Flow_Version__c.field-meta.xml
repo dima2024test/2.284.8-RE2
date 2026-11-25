@@ -2,6 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>pharos__Flow_Version__c</fullName>
     <deprecated>false</deprecated>
+    <description>Version number of the Flow in which the fault occurred, extracted from the flow fault content when the log is captured.</description>
     <externalId>false</externalId>
     <label>Flow Version</label>
     <length>255</length>

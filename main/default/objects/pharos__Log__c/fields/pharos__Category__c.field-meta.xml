@@ -2,6 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>pharos__Category__c</fullName>
     <deprecated>false</deprecated>
+    <description>Category of the log, set from the capture source when the log is created (for example Apex, Flow, LWC, Aura, Snapshot). Determines the log&apos;s record type and which sections appear on the log record page.</description>
     <externalId>false</externalId>
     <label>Category</label>
     <required>false</required>

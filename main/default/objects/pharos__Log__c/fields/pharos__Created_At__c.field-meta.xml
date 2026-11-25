@@ -3,6 +3,7 @@
     <fullName>pharos__Created_At__c</fullName>
     <defaultValue>NOW()</defaultValue>
     <deprecated>false</deprecated>
+    <description>Date and time the logged event actually occurred in the source org, carried on the incoming log payload; defaults to the capture time (NOW()) when not supplied. Can differ from the record&apos;s CreatedDate, which reflects when the record was saved in this org.</description>
     <externalId>false</externalId>
     <label>Created At</label>
     <required>false</required>

@@ -2,6 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>pharos__Jira_Integration_Status__c</fullName>
     <deprecated>false</deprecated>
+    <description>Status of external ticketing for this log: Ticket Pending, New Ticket Created, Existing Ticket Linked, or Error. Managed by Pharos ticketing automation - set to Ticket Pending when a ticket is queued (including after a regression), updated when the ticket is created or linked.</description>
     <externalId>false</externalId>
     <label>Jira Integration Status</label>
     <required>false</required>

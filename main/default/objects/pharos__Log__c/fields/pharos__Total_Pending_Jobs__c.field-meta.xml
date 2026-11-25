@@ -2,6 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>pharos__Total_Pending_Jobs__c</fullName>
     <deprecated>false</deprecated>
+    <description>Number of asynchronous jobs that were pending in the org, derived by post-processing as the number of entries in the Pending Jobs field.</description>
     <externalId>false</externalId>
     <label>Total Pending Jobs</label>
     <precision>18</precision>
